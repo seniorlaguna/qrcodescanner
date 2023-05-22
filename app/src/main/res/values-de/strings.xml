@@ -366,4 +366,9 @@
 
     <!--Barcode formats-->
     <string name="barcode_format_qr_code">QR-Code</string>
+    <string name="button_legales_contact">Kontakt</string>
+    <string name="button_legales_privacy_policy">Datenschutzerklärung</string>
+    <string name="button_legales_terms_of_use">Nutzungsbedingungen</string>
+    <string name="url_privacy_policy">https://seniorlaguna.github.io/qr-code-reader/privacy_de.html</string>
+    <string name="url_terms_of_use">https://seniorlaguna.github.io/qr-code-reader/terms_de.html</string>
 </resources>

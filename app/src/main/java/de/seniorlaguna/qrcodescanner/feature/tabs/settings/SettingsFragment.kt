@@ -86,6 +86,10 @@ class SettingsFragment : Fragment(), DeleteConfirmationDialogFragment.Listener {
         binding!!.buttonPermissions.setOnClickListener { AllPermissionsActivity.start(requireActivity()) }
         binding!!.buttonCheckUpdates.setOnClickListener { showAppInMarket() }
         binding!!.buttonSourceCode.setOnClickListener { showSourceCode() }
+        binding!!.buttonLegalesContact.setOnClickListener { showContact() }
+        binding!!.buttonLegalesPrivacyPolicy.setOnClickListener { showPrivacyPolicy() }
+        binding!!.buttonLegalesTerms.setOnClickListener { showTermsOfUse() }
+
     }
 
     private fun clearHistory() {
@@ -138,7 +142,25 @@ class SettingsFragment : Fragment(), DeleteConfirmationDialogFragment.Listener {
     }
 
     private fun showSourceCode() {
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/seniorlaguna/qrcodescanner"))
+        showUrl("https://github.com/seniorlaguna/qrcodescanner")
+    }
+
+    private fun showPrivacyPolicy() {
+        val url = getString(R.string.url_privacy_policy)
+        showUrl(url)
+    }
+
+    private fun showContact() {
+        showUrl("https://seniorlaguna.github.io/contact.html")
+    }
+
+    private fun showTermsOfUse() {
+        val url = getString(R.string.url_terms_of_use)
+        showUrl(url)
+    }
+
+    private fun showUrl(url : String) {
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
         if (intent.resolveActivity(packageManager) != null) {
             startActivity(intent)
         }

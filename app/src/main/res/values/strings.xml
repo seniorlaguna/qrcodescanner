@@ -381,5 +381,11 @@
     <string name="barcode_format_pdf_417" translatable="false">PDF417</string>
     <string name="barcode_format_upc_a" translatable="false">UPC-A</string>
     <string name="barcode_format_upc_e" translatable="false">UPC-E</string>
+    <string name="legales">Legales</string>
+    <string name="button_legales_contact">Contact</string>
+    <string name="button_legales_privacy_policy">Privacy Policy</string>
+    <string name="button_legales_terms_of_use">Terms Of Use</string>
+    <string name="url_privacy_policy">https://seniorlaguna.github.io/qr-code-reader/privacy.html</string>
+    <string name="url_terms_of_use">https://seniorlaguna.github.io/qr-code-reader/terms.html</string>
 
 </resources>

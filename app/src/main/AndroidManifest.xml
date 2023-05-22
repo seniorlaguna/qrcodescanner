@@ -6,6 +6,7 @@
     >
 
     <!--Normal permissions-->
+    <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.VIBRATE"/>
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
@@ -16,8 +17,6 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
-    <uses-feature android:name="android.hardware.camera" android:required="false"/>
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -27,9 +26,14 @@
         android:name="de.seniorlaguna.qrcodescanner.App"
         >
 
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7519220681088057~2771738960"/>
+
+
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="de.seniorlaguna.barcodescanner.fileprovider"
+            android:authorities="de.seniorlaguna.qrcodescanner.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true"
             >

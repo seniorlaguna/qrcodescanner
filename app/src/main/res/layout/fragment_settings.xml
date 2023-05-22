@@ -230,6 +230,40 @@
                 app:isDelimiterVisible="false"
                 app:isSwitchVisible="false"
                 />
+            <View style="@style/DelimiterStyle" />
+
+            <!--Legales-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_margin_very_big"
+                android:layout_marginBottom="@dimen/default_margin_small"
+                android:layout_marginHorizontal="@dimen/default_margin"
+                android:text="@string/legales"
+                style="@style/SettingsGroupTitleTextViewStyle"
+                />
+            <de.seniorlaguna.qrcodescanner.feature.common.view.SettingsButton
+                android:id="@+id/button_legales_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:text="@string/button_legales_contact"
+                app:isSwitchVisible="false"
+                />
+            <de.seniorlaguna.qrcodescanner.feature.common.view.SettingsButton
+                android:id="@+id/button_legales_privacy_policy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:text="@string/button_legales_privacy_policy"
+                app:isSwitchVisible="false"
+                />
+            <de.seniorlaguna.qrcodescanner.feature.common.view.SettingsButton
+                android:id="@+id/button_legales_terms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:text="@string/button_legales_terms_of_use"
+                app:isSwitchVisible="false"
+                />
+
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 

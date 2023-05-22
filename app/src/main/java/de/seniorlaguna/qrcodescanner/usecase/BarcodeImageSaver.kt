@@ -33,7 +33,7 @@ object BarcodeImageSaver {
         }
 
         // Return Uri for image file
-        return FileProvider.getUriForFile(context, "de.seniorlaguna.barcodescanner.fileprovider", imageFile)
+        return FileProvider.getUriForFile(context, "de.seniorlaguna.qrcodescanner.fileprovider", imageFile)
     }
 
     fun savePngImageToPublicDirectory(context: Context, image: Bitmap, barcode: Barcode): Completable {

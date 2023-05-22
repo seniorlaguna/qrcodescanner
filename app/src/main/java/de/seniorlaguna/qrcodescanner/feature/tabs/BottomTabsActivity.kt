@@ -16,8 +16,8 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 class BottomTabsActivity : BaseActivity(), BottomNavigationView.OnNavigationItemSelectedListener {
 
     companion object {
-        private const val ACTION_CREATE_BARCODE = "CREATE_BARCODE"
-        private const val ACTION_HISTORY = "HISTORY"
+        private const val ACTION_CREATE_BARCODE = "de.seniorlaguna.qrcodescanner.CREATE_BARCODE"
+        private const val ACTION_HISTORY = "de.seniorlaguna.qrcodescanner.HISTORY"
     }
 
     lateinit var binding : ActivityBottomTabsBinding

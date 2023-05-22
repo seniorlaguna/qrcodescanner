@@ -8,8 +8,8 @@
         android:shortcutLongLabel="@string/shortcut_scan_from_camera"
         >
         <intent
-            android:action="de.seniorlaguna.barcodescanner.SCAN_FROM_CAMERA"
-            android:targetPackage="de.seniorlaguna.barcodescanner"
+            android:action="de.seniorlaguna.qrcodescanner.SCAN_FROM_CAMERA"
+            android:targetPackage="de.seniorlaguna.qrcodescanner"
             android:targetClass="de.seniorlaguna.qrcodescanner.feature.tabs.BottomTabsActivity"
             />
     </shortcut>
@@ -22,8 +22,8 @@
         android:shortcutLongLabel="@string/shortcut_scan_from_file"
         >
         <intent
-            android:action="de.seniorlaguna.barcodescanner.SCAN_FROM_FILE"
-            android:targetPackage="de.seniorlaguna.barcodescanner"
+            android:action="de.seniorlaguna.qrcodescanner.SCAN_FROM_FILE"
+            android:targetPackage="de.seniorlaguna.qrcodescanner"
             android:targetClass="de.seniorlaguna.qrcodescanner.feature.tabs.scan.file.ScanBarcodeFromFileActivity"
             />
     </shortcut>
@@ -36,8 +36,8 @@
         android:shortcutLongLabel="@string/shortcut_create_barcode"
         >
         <intent
-            android:action="de.seniorlaguna.barcodescanner.CREATE_BARCODE"
-            android:targetPackage="de.seniorlaguna.barcodescanner"
+            android:action="de.seniorlaguna.qrcodescanner.CREATE_BARCODE"
+            android:targetPackage="de.seniorlaguna.qrcodescanner"
             android:targetClass="de.seniorlaguna.qrcodescanner.feature.tabs.BottomTabsActivity"
             />
     </shortcut>
@@ -50,8 +50,8 @@
         android:shortcutLongLabel="@string/shortcut_history"
         >
         <intent
-            android:action="de.seniorlaguna.barcodescanner.HISTORY"
-            android:targetPackage="de.seniorlaguna.barcodescanner"
+            android:action="de.seniorlaguna.qrcodescanner.HISTORY"
+            android:targetPackage="de.seniorlaguna.qrcodescanner"
             android:targetClass="de.seniorlaguna.qrcodescanner.feature.tabs.BottomTabsActivity"
             />
     </shortcut>

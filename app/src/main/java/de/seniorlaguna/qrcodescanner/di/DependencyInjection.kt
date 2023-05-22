@@ -7,7 +7,7 @@ import de.seniorlaguna.qrcodescanner.usecase.*
 
 
 val App.settings
-    get() = de.seniorlaguna.qrcodescanner.usecase.Settings.getInstance(applicationContext)
+    get() = Settings.getInstance(applicationContext)
 
 
 val AppCompatActivity.barcodeParser

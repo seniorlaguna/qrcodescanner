@@ -14,8 +14,8 @@ import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.core.view.isVisible
 import androidx.print.PrintHelper
-import de.seniorlaguna.barcodescanner.R
-import de.seniorlaguna.barcodescanner.databinding.ActivityBarcodeBinding
+import de.seniorlaguna.qrcodescanner.R
+import de.seniorlaguna.qrcodescanner.databinding.ActivityBarcodeBinding
 import de.seniorlaguna.qrcodescanner.feature.BaseActivity
 import de.seniorlaguna.qrcodescanner.feature.barcode.otp.OtpActivity
 import de.seniorlaguna.qrcodescanner.feature.barcode.save.SaveBarcodeAsImageActivity

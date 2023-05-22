@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.isInvisible
 import androidx.recyclerview.widget.RecyclerView
-import de.seniorlaguna.barcodescanner.databinding.ItemAppBinding
+import de.seniorlaguna.qrcodescanner.databinding.ItemAppBinding
 
 class AppAdapter(private val listener: Listener) : RecyclerView.Adapter<AppAdapter.ViewHolder>() {
 

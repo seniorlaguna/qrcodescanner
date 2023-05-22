@@ -1,6 +1,6 @@
 package de.seniorlaguna.qrcodescanner.extension
 
-import de.seniorlaguna.barcodescanner.R
+import de.seniorlaguna.qrcodescanner.R
 import de.seniorlaguna.qrcodescanner.model.schema.BarcodeSchema
 
 fun BarcodeSchema.toImageId(): Int? {

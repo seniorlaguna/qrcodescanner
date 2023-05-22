@@ -6,8 +6,8 @@ import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.FrameLayout
 import androidx.core.view.isInvisible
-import de.seniorlaguna.barcodescanner.R
-import de.seniorlaguna.barcodescanner.databinding.LayoutSettingsRadioButtonBinding
+import de.seniorlaguna.qrcodescanner.R
+import de.seniorlaguna.qrcodescanner.databinding.LayoutSettingsRadioButtonBinding
 
 class SettingsRadioButton : FrameLayout {
 

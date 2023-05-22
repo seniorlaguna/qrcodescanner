@@ -8,8 +8,8 @@ import android.view.LayoutInflater
 import android.widget.FrameLayout
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.content.ContextCompat
-import de.seniorlaguna.barcodescanner.R
-import de.seniorlaguna.barcodescanner.databinding.LayoutIconButtonBinding
+import de.seniorlaguna.qrcodescanner.R
+import de.seniorlaguna.qrcodescanner.databinding.LayoutIconButtonBinding
 
 class IconButton : FrameLayout {
 

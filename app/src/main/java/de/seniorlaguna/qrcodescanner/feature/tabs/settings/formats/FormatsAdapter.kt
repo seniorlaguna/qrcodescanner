@@ -5,7 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.isInvisible
 import androidx.recyclerview.widget.RecyclerView
-import de.seniorlaguna.barcodescanner.databinding.ItemBarcodeFormatBinding
+import de.seniorlaguna.qrcodescanner.databinding.ItemBarcodeFormatBinding
 import de.seniorlaguna.qrcodescanner.extension.toStringId
 import com.google.zxing.BarcodeFormat
 

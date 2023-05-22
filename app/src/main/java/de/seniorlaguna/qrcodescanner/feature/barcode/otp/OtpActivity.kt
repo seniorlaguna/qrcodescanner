@@ -5,8 +5,8 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.WindowManager
 import androidx.core.view.isVisible
-import de.seniorlaguna.barcodescanner.R
-import de.seniorlaguna.barcodescanner.databinding.ActivityBarcodeOtpBinding
+import de.seniorlaguna.qrcodescanner.R
+import de.seniorlaguna.qrcodescanner.databinding.ActivityBarcodeOtpBinding
 import de.seniorlaguna.qrcodescanner.di.otpGenerator
 import de.seniorlaguna.qrcodescanner.extension.applySystemWindowInsets
 import de.seniorlaguna.qrcodescanner.extension.orZero

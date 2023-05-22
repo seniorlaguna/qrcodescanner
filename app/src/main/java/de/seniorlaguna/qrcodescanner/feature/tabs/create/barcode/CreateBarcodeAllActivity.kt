@@ -3,7 +3,7 @@ package de.seniorlaguna.qrcodescanner.feature.tabs.create.barcode
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import de.seniorlaguna.barcodescanner.databinding.ActivityCreateBarcodeAllBinding
+import de.seniorlaguna.qrcodescanner.databinding.ActivityCreateBarcodeAllBinding
 import de.seniorlaguna.qrcodescanner.extension.applySystemWindowInsets
 import de.seniorlaguna.qrcodescanner.feature.BaseActivity
 import de.seniorlaguna.qrcodescanner.feature.tabs.create.CreateBarcodeActivity

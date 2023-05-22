@@ -5,8 +5,8 @@ import android.content.res.TypedArray
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.FrameLayout
-import de.seniorlaguna.barcodescanner.R
-import de.seniorlaguna.barcodescanner.databinding.LayoutDateTimePickerButtonBinding
+import de.seniorlaguna.qrcodescanner.R
+import de.seniorlaguna.qrcodescanner.databinding.LayoutDateTimePickerButtonBinding
 import de.seniorlaguna.qrcodescanner.extension.formatOrNull
 import com.github.florent37.singledateandtimepicker.dialog.SingleDateAndTimePickerDialog
 import java.text.SimpleDateFormat

@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import androidx.core.widget.addTextChangedListener
-import de.seniorlaguna.barcodescanner.R
-import de.seniorlaguna.barcodescanner.databinding.FragmentCreateQrCodeCryptocurrencyBinding
+import de.seniorlaguna.qrcodescanner.R
+import de.seniorlaguna.qrcodescanner.databinding.FragmentCreateQrCodeCryptocurrencyBinding
 import de.seniorlaguna.qrcodescanner.extension.isNotBlank
 import de.seniorlaguna.qrcodescanner.extension.textString
 import de.seniorlaguna.qrcodescanner.feature.tabs.create.BaseCreateBarcodeFragment

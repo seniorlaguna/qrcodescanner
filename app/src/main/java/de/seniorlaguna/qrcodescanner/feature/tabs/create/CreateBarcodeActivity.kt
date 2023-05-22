@@ -9,8 +9,8 @@ import android.os.Bundle
 import android.provider.ContactsContract
 import android.widget.Toast
 import androidx.core.content.ContextCompat
-import de.seniorlaguna.barcodescanner.R
-import de.seniorlaguna.barcodescanner.databinding.ActivityCreateBarcodeBinding
+import de.seniorlaguna.qrcodescanner.R
+import de.seniorlaguna.qrcodescanner.databinding.ActivityCreateBarcodeBinding
 import de.seniorlaguna.qrcodescanner.extension.applySystemWindowInsets
 import de.seniorlaguna.qrcodescanner.extension.showError
 import de.seniorlaguna.qrcodescanner.extension.toStringId

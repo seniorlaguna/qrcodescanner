@@ -7,8 +7,8 @@ import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.core.view.isVisible
-import de.seniorlaguna.barcodescanner.R
-import de.seniorlaguna.barcodescanner.databinding.ActivitySaveBarcodeAsTextBinding
+import de.seniorlaguna.qrcodescanner.R
+import de.seniorlaguna.qrcodescanner.databinding.ActivitySaveBarcodeAsTextBinding
 import de.seniorlaguna.qrcodescanner.di.barcodeSaver
 import de.seniorlaguna.qrcodescanner.di.permissionsHelper
 import de.seniorlaguna.qrcodescanner.extension.applySystemWindowInsets

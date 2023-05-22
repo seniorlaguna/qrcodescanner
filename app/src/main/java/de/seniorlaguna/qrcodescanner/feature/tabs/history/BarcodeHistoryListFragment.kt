@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.paging.PagedList
 import androidx.paging.RxPagedListBuilder
 import androidx.recyclerview.widget.LinearLayoutManager
-import de.seniorlaguna.barcodescanner.databinding.FragmentBarcodeHistoryListBinding
+import de.seniorlaguna.qrcodescanner.databinding.FragmentBarcodeHistoryListBinding
 import de.seniorlaguna.qrcodescanner.di.barcodeDatabase
 import de.seniorlaguna.qrcodescanner.extension.orZero
 import de.seniorlaguna.qrcodescanner.extension.showError

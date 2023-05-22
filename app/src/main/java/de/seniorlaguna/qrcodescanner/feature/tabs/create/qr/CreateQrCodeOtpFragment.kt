@@ -8,8 +8,8 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import androidx.core.view.isVisible
 import androidx.core.widget.addTextChangedListener
-import de.seniorlaguna.barcodescanner.R
-import de.seniorlaguna.barcodescanner.databinding.FragmentCreateQrCodeOtpBinding
+import de.seniorlaguna.qrcodescanner.R
+import de.seniorlaguna.qrcodescanner.databinding.FragmentCreateQrCodeOtpBinding
 import de.seniorlaguna.qrcodescanner.extension.encodeBase32
 import de.seniorlaguna.qrcodescanner.extension.isNotBlank
 import de.seniorlaguna.qrcodescanner.extension.textString

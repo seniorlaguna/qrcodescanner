@@ -11,8 +11,8 @@ import android.provider.MediaStore
 import android.view.MotionEvent.ACTION_UP
 import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
-import de.seniorlaguna.barcodescanner.R
-import de.seniorlaguna.barcodescanner.databinding.ActivityScanBarcodeFromFileBinding
+import de.seniorlaguna.qrcodescanner.R
+import de.seniorlaguna.qrcodescanner.databinding.ActivityScanBarcodeFromFileBinding
 import de.seniorlaguna.qrcodescanner.extension.applySystemWindowInsets
 import de.seniorlaguna.qrcodescanner.extension.showError
 import de.seniorlaguna.qrcodescanner.feature.BaseActivity

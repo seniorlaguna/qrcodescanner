@@ -4,7 +4,7 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import de.seniorlaguna.barcodescanner.databinding.ActivityChooseSearchEngineBinding
+import de.seniorlaguna.qrcodescanner.databinding.ActivityChooseSearchEngineBinding
 import de.seniorlaguna.qrcodescanner.di.settings
 import de.seniorlaguna.qrcodescanner.extension.applySystemWindowInsets
 import de.seniorlaguna.qrcodescanner.extension.unsafeLazy

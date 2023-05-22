@@ -13,8 +13,8 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.budiyev.android.codescanner.*
-import de.seniorlaguna.barcodescanner.R
-import de.seniorlaguna.barcodescanner.databinding.FragmentScanBarcodeFromCameraBinding
+import de.seniorlaguna.qrcodescanner.R
+import de.seniorlaguna.qrcodescanner.databinding.FragmentScanBarcodeFromCameraBinding
 import de.seniorlaguna.qrcodescanner.di.*
 import de.seniorlaguna.qrcodescanner.extension.*
 import de.seniorlaguna.qrcodescanner.feature.barcode.BarcodeActivity

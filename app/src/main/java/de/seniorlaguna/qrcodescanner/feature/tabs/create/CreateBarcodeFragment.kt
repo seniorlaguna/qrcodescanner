@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import de.seniorlaguna.barcodescanner.databinding.FragmentCreateBarcodeBinding
+import de.seniorlaguna.qrcodescanner.databinding.FragmentCreateBarcodeBinding
 import de.seniorlaguna.qrcodescanner.extension.applySystemWindowInsets
 import de.seniorlaguna.qrcodescanner.extension.clipboardManager
 import de.seniorlaguna.qrcodescanner.extension.orZero

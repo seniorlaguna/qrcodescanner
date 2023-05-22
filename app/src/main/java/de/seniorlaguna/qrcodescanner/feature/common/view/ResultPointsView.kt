@@ -7,7 +7,7 @@ import android.util.AttributeSet
 import android.util.TypedValue
 import android.view.View
 import androidx.core.content.ContextCompat
-import de.seniorlaguna.barcodescanner.R
+import de.seniorlaguna.qrcodescanner.R
 import com.google.zxing.Result
 
 class ResultPointsView : View {

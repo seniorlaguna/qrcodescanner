@@ -9,8 +9,8 @@ import android.widget.FrameLayout
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
-import de.seniorlaguna.barcodescanner.R
-import de.seniorlaguna.barcodescanner.databinding.LayoutIconButtonWithDelimiterBinding
+import de.seniorlaguna.qrcodescanner.R
+import de.seniorlaguna.qrcodescanner.databinding.LayoutIconButtonWithDelimiterBinding
 
 
 class IconButtonWithDelimiter : FrameLayout {

@@ -1,7 +1,7 @@
 package de.seniorlaguna.qrcodescanner.extension
 
 import com.google.zxing.BarcodeFormat
-import de.seniorlaguna.barcodescanner.R
+import de.seniorlaguna.qrcodescanner.R
 
 fun BarcodeFormat.toStringId(): Int {
     return when (this) {

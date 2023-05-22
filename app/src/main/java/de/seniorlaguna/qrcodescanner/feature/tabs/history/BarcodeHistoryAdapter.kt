@@ -10,7 +10,7 @@ import androidx.core.view.isVisible
 import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import de.seniorlaguna.barcodescanner.databinding.ItemBarcodeHistoryBinding
+import de.seniorlaguna.qrcodescanner.databinding.ItemBarcodeHistoryBinding
 import de.seniorlaguna.qrcodescanner.extension.toColorId
 import de.seniorlaguna.qrcodescanner.extension.toImageId
 import de.seniorlaguna.qrcodescanner.extension.toStringId

@@ -5,8 +5,8 @@ import android.view.MenuItem
 import androidx.fragment.app.Fragment
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.MobileAds
-import de.seniorlaguna.barcodescanner.R
-import de.seniorlaguna.barcodescanner.databinding.ActivityBottomTabsBinding
+import de.seniorlaguna.qrcodescanner.R
+import de.seniorlaguna.qrcodescanner.databinding.ActivityBottomTabsBinding
 import de.seniorlaguna.qrcodescanner.extension.applySystemWindowInsets
 import de.seniorlaguna.qrcodescanner.feature.BaseActivity
 import de.seniorlaguna.qrcodescanner.feature.tabs.create.CreateBarcodeFragment

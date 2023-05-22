@@ -4,7 +4,7 @@ import android.content.Context
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
-import de.seniorlaguna.barcodescanner.R
+import de.seniorlaguna.qrcodescanner.R
 
 class BarcodeHistoryViewPagerAdapter(context: Context, fragmentManager: FragmentManager) : FragmentStatePagerAdapter(fragmentManager) {
     private val pageTitles = context.resources.getStringArray(R.array.fragment_barcode_history_tab_titles)

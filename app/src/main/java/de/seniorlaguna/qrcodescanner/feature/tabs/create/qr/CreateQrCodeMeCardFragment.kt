@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import de.seniorlaguna.barcodescanner.databinding.FragmentCreateQrCodeMecardBinding
+import de.seniorlaguna.qrcodescanner.databinding.FragmentCreateQrCodeMecardBinding
 import de.seniorlaguna.qrcodescanner.extension.textString
 import de.seniorlaguna.qrcodescanner.feature.tabs.create.BaseCreateBarcodeFragment
 import de.seniorlaguna.qrcodescanner.model.Contact

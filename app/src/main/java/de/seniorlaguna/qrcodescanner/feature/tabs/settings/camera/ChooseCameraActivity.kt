@@ -3,7 +3,7 @@ package de.seniorlaguna.qrcodescanner.feature.tabs.settings.camera
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import de.seniorlaguna.barcodescanner.databinding.ActivityChooseCameraBinding
+import de.seniorlaguna.qrcodescanner.databinding.ActivityChooseCameraBinding
 import de.seniorlaguna.qrcodescanner.di.settings
 import de.seniorlaguna.qrcodescanner.extension.applySystemWindowInsets
 import de.seniorlaguna.qrcodescanner.feature.BaseActivity

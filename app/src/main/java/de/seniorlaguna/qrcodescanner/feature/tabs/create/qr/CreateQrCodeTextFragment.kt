@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.widget.addTextChangedListener
-import de.seniorlaguna.barcodescanner.databinding.FragmentCreateQrCodeTextBinding
+import de.seniorlaguna.qrcodescanner.databinding.FragmentCreateQrCodeTextBinding
 import de.seniorlaguna.qrcodescanner.di.barcodeParser
 import de.seniorlaguna.qrcodescanner.extension.isNotBlank
 import de.seniorlaguna.qrcodescanner.extension.textString

@@ -4,7 +4,7 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
-import de.seniorlaguna.barcodescanner.databinding.ActivitySupportedFormatsBinding
+import de.seniorlaguna.qrcodescanner.databinding.ActivitySupportedFormatsBinding
 import de.seniorlaguna.qrcodescanner.di.settings
 import de.seniorlaguna.qrcodescanner.extension.applySystemWindowInsets
 import de.seniorlaguna.qrcodescanner.extension.unsafeLazy
